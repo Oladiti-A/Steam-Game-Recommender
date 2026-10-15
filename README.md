@@ -25,6 +25,8 @@ A game recommender system built on 200,000 Steam user interactions using Spark M
 - **Simpler models performed best:** increasing `alpha` or `rank` lowered all metrics, suggesting larger models overfit this sparse dataset.
 - **Popularity bias:** a few titles dominate play activity, which makes the baseline strong and pushes recommendations towards widely played games.
 
+-    📄 See the full [model card](MODEL_CARD.md) for intended use, limitations and ethical considerations.
+
 ## Limitations and next steps
 
 - **Cold start:** new users and games can't be recommended. A content-based layer (genres, tags) could cover them.
